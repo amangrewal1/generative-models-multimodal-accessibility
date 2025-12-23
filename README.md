@@ -1,5 +1,7 @@
 # Generative Models for Multimodal Accessibility
 
+![tests](https://github.com/amangrewal1/generative-models-multimodal-accessibility/actions/workflows/test.yml/badge.svg) ![license](https://img.shields.io/badge/license-MIT-blue) ![python](https://img.shields.io/badge/python-3.10+-blue)
+
 Fine-tuning diffusion models and LLMs to produce accessibility-oriented multimodal
 outputs: rich alt-text, simplified/high-contrast visuals, and audio-description
 scripts. Includes fairness-aware training, quality metrics, and CoreML export for
