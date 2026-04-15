@@ -37,6 +37,10 @@ notebooks/       demo.ipynb end-to-end walkthrough
 
 ## Quickstart
 
+> **Note:** This project has heavy ML dependencies (torch, tensorflow, diffusers,
+> coremltools, bitsandbytes). A full install is ~10 GB and requires a CUDA or
+> MPS-capable machine for training. The code is written for Python 3.10+.
+
 ```bash
 pip install -e .
 python scripts/train_diffusion.py --config configs/diffusion.yaml
